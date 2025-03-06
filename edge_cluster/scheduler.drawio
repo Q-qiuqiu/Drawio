@@ -1,9 +1,56 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.1.0">
   <diagram name="第 1 页" id="hCh8dY2c1LdicnGccTaG">
-    <mxGraphModel>
+    <mxGraphModel dx="1235" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-1" value="已部署运行的服务类 ServerInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-2" value="&lt;div&gt;服务id:int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Taskid：int 可查询到服务来源的任务信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UsedCpu:int 已使用的资源占比&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UsedMem:int&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ax4CQ1fRWcPSmlp6R-Am-1">
+          <mxGeometry y="30" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-3" value="&lt;div&gt;获取信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;设置信息&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ax4CQ1fRWcPSmlp6R-Am-1">
+          <mxGeometry y="140" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-6" value="节点资源类 NodeInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="410" y="90" width="440" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-7" value="&lt;div&gt;节点名称:varchar&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;节点资源主类型:enum&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;已部署服务信息列表:Map&amp;lt;Taskid , List&amp;lt;ServerInfo&amp;gt;&amp;gt;节点下任务名及其对应信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;节点整体负载情况:NodeLoadinfo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;硬件设备信息:DeviceInfo&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ax4CQ1fRWcPSmlp6R-Am-6">
+          <mxGeometry y="30" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-8" value="&lt;div&gt;NotifyOverhead&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UpdateServerInfoList&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ax4CQ1fRWcPSmlp6R-Am-6">
+          <mxGeometry y="170" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;dashed=1;" edge="1" parent="1" source="Ax4CQ1fRWcPSmlp6R-Am-10" target="Ax4CQ1fRWcPSmlp6R-Am-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-10" value="服务管理类 ServeManger" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="450" y="420" width="400" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-11" value="&lt;div&gt;任务节点部署映射：Map&amp;lt;string , NodeInfo&amp;gt;节点id和节点信息的对应关系&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;全局节点信息表：List&amp;lt;NodeInfo&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Taskid2Info: Map&amp;lt;taskid , Taskinfo&amp;gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ax4CQ1fRWcPSmlp6R-Am-10">
+          <mxGeometry y="30" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-12" value="&lt;div&gt;DeployServe(Taskid,Nodeid)部署任务到指定设备&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;RegisterNode注册节点&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;RemoveServe&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;RemoveNode移除指定机器&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ax4CQ1fRWcPSmlp6R-Am-10">
+          <mxGeometry y="110" width="400" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-14" value="未部署的任务类 TaskInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-15" value="&lt;div&gt;任务id:int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;任务类型:enum&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;最小内存要求:int &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;最小Cpu占比: Map&amp;lt;strting , int&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;最小Gpu占比:Map&amp;lt;string , int&amp;gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ax4CQ1fRWcPSmlp6R-Am-14">
+          <mxGeometry y="30" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-16" value="&lt;div&gt;Set TaskInfo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Get TaskInfo&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ax4CQ1fRWcPSmlp6R-Am-14">
+          <mxGeometry y="170" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="Ax4CQ1fRWcPSmlp6R-Am-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ax4CQ1fRWcPSmlp6R-Am-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.545;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;dashed=1;" edge="1" parent="1" source="Ax4CQ1fRWcPSmlp6R-Am-10" target="Ax4CQ1fRWcPSmlp6R-Am-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
