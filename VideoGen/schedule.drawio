@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.1">
   <diagram name="第 1 页" id="cnDdHJVZcsyukWy6zc07">
-    <mxGraphModel dx="2100" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="724" dy="385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -238,7 +238,7 @@
         <mxCell id="pLnmARu8xyEpF4UmJlGQ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pLnmARu8xyEpF4UmJlGQ-115" source="pLnmARu8xyEpF4UmJlGQ-45" target="pLnmARu8xyEpF4UmJlGQ-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pLnmARu8xyEpF4UmJlGQ-45" value="&lt;div&gt;同步计算特征图&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;startSize=30;" vertex="1" parent="pLnmARu8xyEpF4UmJlGQ-115">
+        <mxCell id="pLnmARu8xyEpF4UmJlGQ-45" value="&lt;div&gt;初始化流水线&lt;/div&gt;&lt;div&gt;同步计算特征图&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;startSize=30;" vertex="1" parent="pLnmARu8xyEpF4UmJlGQ-115">
           <mxGeometry x="50" y="30" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pLnmARu8xyEpF4UmJlGQ-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pLnmARu8xyEpF4UmJlGQ-115" source="pLnmARu8xyEpF4UmJlGQ-47" target="pLnmARu8xyEpF4UmJlGQ-48">
