@@ -352,7 +352,7 @@
         <mxCell id="CumaRwDgHpPUCS0nQCwT-19" value="&lt;div&gt;_convert_transformer_for_parallel&lt;/div&gt;&lt;div&gt;_split_transformer_blocks&lt;/div&gt;&lt;div&gt;拆分模型&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="CumaRwDgHpPUCS0nQCwT-17">
           <mxGeometry y="30" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CumaRwDgHpPUCS0nQCwT-22" value="&lt;div&gt;_wrap_layers&lt;/div&gt;&lt;div&gt;适配并行运算&lt;/div&gt;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="CumaRwDgHpPUCS0nQCwT-17">
+        <mxCell id="CumaRwDgHpPUCS0nQCwT-22" value="&lt;div&gt;_wrap_layers&lt;/div&gt;&lt;div&gt;封装组件，适配并行运算&lt;/div&gt;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="CumaRwDgHpPUCS0nQCwT-17">
           <mxGeometry y="90" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CumaRwDgHpPUCS0nQCwT-23" value="&lt;div&gt;_register_cache&lt;/div&gt;&lt;div&gt;选择缓存策略&lt;/div&gt;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="CumaRwDgHpPUCS0nQCwT-17">
