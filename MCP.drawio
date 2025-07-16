@@ -1,9 +1,83 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.4">
   <diagram name="第 1 页" id="Zs4RSEsippY4Q-daVaDR">
-    <mxGraphModel>
+    <mxGraphModel dx="1007" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MkoVejmkBs83C9UF1eeo-4" value="&lt;div&gt;65W固定电源&lt;/div&gt;&lt;div&gt;24G内存&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="430" y="210" width="125" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-3" value="&lt;div&gt;20W固定电源&lt;/div&gt;&lt;div&gt;移动电源供电&lt;/div&gt;&lt;div&gt;6TOPS推理能力&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="125" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-1" value="香橙派5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="230" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-2" value="香橙派ai pro" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-6" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.keyboard" vertex="1" parent="1">
+          <mxGeometry x="650" y="259" width="70" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MkoVejmkBs83C9UF1eeo-7" target="MkoVejmkBs83C9UF1eeo-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="220" />
+              <mxPoint x="600" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-7" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=light-dark(#0000a0, #0089b6);shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="190" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;shape=wire;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="MkoVejmkBs83C9UF1eeo-8" target="MkoVejmkBs83C9UF1eeo-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="738" y="350" />
+              <mxPoint x="600" y="350" />
+              <mxPoint x="600" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-8" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.mouse" vertex="1" parent="1">
+          <mxGeometry x="730" y="266" width="16.8" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MkoVejmkBs83C9UF1eeo-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="685" y="350" as="sourcePoint" />
+            <mxPoint x="570" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Unicons_Line_vol_5-2967/robot-789.svg;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-28" value="&lt;div&gt;20W固定电源&lt;/div&gt;&lt;div&gt;移动电源供电&lt;/div&gt;&lt;div&gt;6TOPS推理能力&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="206.5" y="190" width="125" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-29" value="香橙派5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-30" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Unicons_Line_vol_5-2967/robot-789.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-36" value="&lt;div&gt;20W固定电源&lt;/div&gt;&lt;div&gt;移动电源供电&lt;/div&gt;&lt;div&gt;6TOPS推理能力&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="170" width="125" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-37" value="香橙派5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="190" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-38" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Unicons_Line_vol_5-2967/robot-789.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="280" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-39" value="&lt;div&gt;20W固定电源&lt;/div&gt;&lt;div&gt;移动电源供电&lt;/div&gt;&lt;div&gt;6TOPS推理能力&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="146" width="125" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-40" value="香橙派5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="187.5" y="160" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-41" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Unicons_Line_vol_5-2967/robot-789.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="250" width="50" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
