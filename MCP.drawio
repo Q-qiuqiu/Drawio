@@ -125,7 +125,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-82" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_N_128x128.png;imageBorder=none;" vertex="1" parent="1">
-          <mxGeometry x="219.75" y="28" width="54.5" height="51" as="geometry" />
+          <mxGeometry x="221.75" y="28" width="54.5" height="51" as="geometry" />
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-89" value="外接设备" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="584" y="245" width="70" height="30" as="geometry" />
