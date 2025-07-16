@@ -1,17 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.4">
   <diagram name="第 1 页" id="Zs4RSEsippY4Q-daVaDR">
-    <mxGraphModel dx="957" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1126" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MkoVejmkBs83C9UF1eeo-54" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="351" y="35" width="62.5" height="60" as="geometry" />
+          <mxGeometry x="330.5" y="79" width="62.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="MkoVejmkBs83C9UF1eeo-4" target="MkoVejmkBs83C9UF1eeo-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-4" value="&lt;div&gt;65W固定电源&lt;/div&gt;&lt;div&gt;24G内存&lt;/div&gt;&lt;div&gt;外接键盘鼠标显示器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="430" y="210" width="125" height="180" as="geometry" />
+          <mxGeometry x="430" y="159" width="125" height="180" as="geometry" />
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-3" value="&lt;div&gt;20W固定电源&lt;/div&gt;&lt;div&gt;移动电源供电&lt;/div&gt;&lt;div&gt;6TOPS推理能力&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="210" width="125" height="180" as="geometry" />
@@ -20,40 +20,40 @@
           <mxGeometry x="257.5" y="230" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-2" value="香橙派ai pro" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="452.5" y="230" width="80" height="40" as="geometry" />
+          <mxGeometry x="452.5" y="179" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="MkoVejmkBs83C9UF1eeo-6" target="MkoVejmkBs83C9UF1eeo-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="279" />
-              <mxPoint x="580" y="279" />
-              <mxPoint x="580" y="255" />
+              <mxPoint x="590" y="228" />
+              <mxPoint x="580" y="228" />
+              <mxPoint x="580" y="204" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-6" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=light-dark(#0080ff, #bfd3ff);shape=mxgraph.mscae.enterprise.keyboard" vertex="1" parent="1">
-          <mxGeometry x="590" y="263" width="70" height="42" as="geometry" />
+          <mxGeometry x="590" y="212" width="70" height="42" as="geometry" />
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="MkoVejmkBs83C9UF1eeo-7" target="MkoVejmkBs83C9UF1eeo-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="580" y="220" />
-              <mxPoint x="580" y="255" />
+              <mxPoint x="580" y="169" />
+              <mxPoint x="580" y="204" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-7" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=light-dark(#0080ff, #0089b6);shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="190" width="90" height="60" as="geometry" />
+          <mxGeometry x="590" y="139" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="MkoVejmkBs83C9UF1eeo-8" target="MkoVejmkBs83C9UF1eeo-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="678" y="255" />
+              <mxPoint x="678" y="204" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-8" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=light-dark(#0080ff, #bfd3ff);shape=mxgraph.mscae.enterprise.mouse" vertex="1" parent="1">
-          <mxGeometry x="670" y="271" width="16.8" height="28" as="geometry" />
+          <mxGeometry x="670" y="220" width="16.8" height="28" as="geometry" />
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Unicons_Line_vol_5-2967/robot-789.svg;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="267.5" y="320" width="50" height="50" as="geometry" />
@@ -101,17 +101,18 @@
           <mxGeometry x="266" y="308" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-51" value="" style="fillColor=#3F51B5;aspect=fixed;sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;outlineConnect=0;verticalAlign=top;align=center;shape=mxgraph.openstack.cinder_volume;" vertex="1" parent="1">
-          <mxGeometry x="357.25" y="40" width="50" height="50" as="geometry" />
+          <mxGeometry x="336.75" y="84" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MkoVejmkBs83C9UF1eeo-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="MkoVejmkBs83C9UF1eeo-60" target="MkoVejmkBs83C9UF1eeo-54">
+        <mxCell id="MkoVejmkBs83C9UF1eeo-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.485;entryY=-0.002;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;entryPerimeter=0;" edge="1" parent="1" source="MkoVejmkBs83C9UF1eeo-60" target="MkoVejmkBs83C9UF1eeo-54">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="382" y="10" />
+              <mxPoint x="360" y="54" />
+              <mxPoint x="360" y="79" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-60" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.cen_cloud_enterprise_network;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="219.8" y="-19.9" width="53.4" height="54.900000000000006" as="geometry" />
+          <mxGeometry x="220.3" y="24.1" width="53.4" height="54.900000000000006" as="geometry" />
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.979;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=none;shape=flexArrow;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -128,10 +129,10 @@
           <mxGeometry x="178.5" y="301" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-70" value="交换机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="351" y="90" width="60" height="30" as="geometry" />
+          <mxGeometry x="331.75" y="134" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-71" value="互联网" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="216.5" y="30" width="60" height="30" as="geometry" />
+          <mxGeometry x="217" y="74" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
