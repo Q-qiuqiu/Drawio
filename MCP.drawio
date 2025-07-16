@@ -103,7 +103,7 @@
         <mxCell id="MkoVejmkBs83C9UF1eeo-51" value="" style="fillColor=#3F51B5;aspect=fixed;sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;outlineConnect=0;verticalAlign=top;align=center;shape=mxgraph.openstack.cinder_volume;" vertex="1" parent="1">
           <mxGeometry x="357.25" y="40" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MkoVejmkBs83C9UF1eeo-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MkoVejmkBs83C9UF1eeo-60" target="MkoVejmkBs83C9UF1eeo-54">
+        <mxCell id="MkoVejmkBs83C9UF1eeo-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="MkoVejmkBs83C9UF1eeo-60" target="MkoVejmkBs83C9UF1eeo-54">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="382" y="10" />
@@ -113,7 +113,7 @@
         <mxCell id="MkoVejmkBs83C9UF1eeo-60" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.cen_cloud_enterprise_network;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="219.8" y="-19.9" width="53.4" height="54.900000000000006" as="geometry" />
         </mxCell>
-        <mxCell id="MkoVejmkBs83C9UF1eeo-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.979;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=none;" edge="1" parent="1">
+        <mxCell id="MkoVejmkBs83C9UF1eeo-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.979;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=none;shape=flexArrow;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="382" y="20" as="sourcePoint" />
             <mxPoint x="112.2786000000001" y="61.66960000000006" as="targetPoint" />
@@ -126,6 +126,12 @@
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-69" value="Qwen3-1.7B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="178.5" y="301" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-70" value="交换机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="351" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MkoVejmkBs83C9UF1eeo-71" value="互联网" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="216.5" y="30" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
