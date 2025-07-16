@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.4">
   <diagram name="第 1 页" id="Zs4RSEsippY4Q-daVaDR">
-    <mxGraphModel dx="798" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="957" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
         <mxCell id="MkoVejmkBs83C9UF1eeo-40" value="香橙派5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="187.5" y="160" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MkoVejmkBs83C9UF1eeo-41" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Unicons_Line_vol_5-2967/robot-789.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;imageBorder=#3399FF;" vertex="1" parent="1">
+        <mxCell id="MkoVejmkBs83C9UF1eeo-41" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Unicons_Line_vol_5-2967/robot-789.svg;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;imageBorder=none;" vertex="1" parent="1">
           <mxGeometry x="197.5" y="259" width="51" height="51" as="geometry" />
         </mxCell>
         <mxCell id="MkoVejmkBs83C9UF1eeo-42" value="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
