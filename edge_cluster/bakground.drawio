@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.9">
   <diagram name="Ascend_Z3_Scheduler" id="uuCOxpwbRQDP2r8auEWy">
-    <mxGraphModel dx="2194" dy="1094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1783" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="h_B8XDcVLiq0_1wN1lOI-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=10;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;spacingTop=10;fontSize=16;" value="&lt;b&gt;基于 Z3 的昇腾智能调度核心&lt;/b&gt;" vertex="1">
-          <mxGeometry height="640" width="340" x="700" y="170" as="geometry" />
+          <mxGeometry height="540" width="340" x="700" y="170" as="geometry" />
         </mxCell>
         <mxCell id="h_B8XDcVLiq0_1wN1lOI-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" value="输入数据与&lt;br&gt;新任务请求" vertex="1">
           <mxGeometry height="80" width="100" x="420" y="410" as="geometry" />
