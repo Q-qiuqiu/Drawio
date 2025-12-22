@@ -252,16 +252,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="h_B8XDcVLiq0_1wN1lOI-75" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="接收注册请求&lt;br&gt;/register_node" vertex="1">
-          <mxGeometry height="40" width="120" x="1560" y="1070" as="geometry" />
+          <mxGeometry height="40" width="120" x="1560" y="1045" as="geometry" />
         </mxCell>
         <mxCell id="h_B8XDcVLiq0_1wN1lOI-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="更新集群节点列表" vertex="1">
           <mxGeometry height="40" width="120" x="1560" y="1150" as="geometry" />
         </mxCell>
         <mxCell id="h_B8XDcVLiq0_1wN1lOI-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="记录新节点加入日志" vertex="1">
-          <mxGeometry height="40" width="120" x="1560" y="1230" as="geometry" />
+          <mxGeometry height="40" width="120" x="1560" y="1275" as="geometry" />
         </mxCell>
         <mxCell id="h_B8XDcVLiq0_1wN1lOI-78" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="发送注册成功响应&lt;br&gt;(HTTP 200)" vertex="1">
-          <mxGeometry height="40" width="140" x="1550" y="1320" as="geometry" />
+          <mxGeometry height="40" width="140" x="1550" y="1360" as="geometry" />
         </mxCell>
         <mxCell id="h_B8XDcVLiq0_1wN1lOI-79" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="h_B8XDcVLiq0_1wN1lOI-76">
           <mxGeometry relative="1" as="geometry" />
@@ -275,8 +275,8 @@
         <mxCell id="h_B8XDcVLiq0_1wN1lOI-82" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=3;strokeColor=#3399FF;fillColor=#3399FF;" target="h_B8XDcVLiq0_1wN1lOI-75" value="POST请求">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1420" y="1065" />
-              <mxPoint x="1420" y="1090" />
+              <mxPoint x="1490" y="1065" />
+              <mxPoint x="1490" y="1065" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -286,8 +286,8 @@
         <mxCell id="h_B8XDcVLiq0_1wN1lOI-84" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;strokeWidth=3;strokeColor=#3399FF;fillColor=#3399FF;" target="h_B8XDcVLiq0_1wN1lOI-65" value="HTTP响应">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1420" y="1340" />
-              <mxPoint x="1420" y="1380" />
+              <mxPoint x="1480" y="1380" />
+              <mxPoint x="1480" y="1380" />
             </Array>
           </mxGeometry>
         </mxCell>
