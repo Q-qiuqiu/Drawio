@@ -1,9 +1,116 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.9">
-  <diagram name="第 1 页" id="uuCOxpwbRQDP2r8auEWy">
-    <mxGraphModel>
+  <diagram name="Ascend_Z3_Scheduler" id="uuCOxpwbRQDP2r8auEWy">
+    <mxGraphModel dx="2194" dy="1094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=10;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;spacingTop=10;fontSize=16;" value="&lt;b&gt;基于 Z3 的昇腾智能调度核心&lt;/b&gt;" vertex="1">
+          <mxGeometry height="640" width="340" x="700" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" value="输入数据与&lt;br&gt;新任务请求" vertex="1">
+          <mxGeometry height="80" width="100" x="420" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="新任务请求" vertex="1">
+          <mxGeometry height="30" width="90" x="570" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-4" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#4D4D4D;strokeWidth=2;" target="h_B8XDcVLiq0_1wN1lOI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-5" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="h_B8XDcVLiq0_1wN1lOI-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="初始化 &amp; 昇腾资源分析&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(Initialization &amp; Ascend Analysis)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="230" x="755" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-7" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4D4D4D;strokeWidth=2;" target="h_B8XDcVLiq0_1wN1lOI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#E6E0EC;strokeColor=#5A5A5A;verticalAlign=top;spacingTop=5;" value="昇腾任务约束建模" vertex="1">
+          <mxGeometry height="260" width="300" x="720" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="判断冷/热启&lt;br&gt;动?" vertex="1">
+          <mxGeometry height="60" width="120" x="810" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="加上 Profiling 开销" vertex="1">
+          <mxGeometry height="30" width="120" x="730" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="复用当前负载" vertex="1">
+          <mxGeometry height="30" width="120" x="890" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="添加资源上限约束 (≤100%)&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(Add Resource Limits)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="230" x="755" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-13" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-9" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;entryX=0.5;entryY=0;labelBackgroundColor=none;fontSize=10;" target="h_B8XDcVLiq0_1wN1lOI-10" value="冷启动&lt;br&gt;(Cold)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-14" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-9" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;labelBackgroundColor=none;fontSize=10;" target="h_B8XDcVLiq0_1wN1lOI-11" value="热启动&lt;br&gt;(Hot)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-15" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-10" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;entryX=0.25;entryY=0;" target="h_B8XDcVLiq0_1wN1lOI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-16" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-11" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;entryX=0.75;entryY=0;" target="h_B8XDcVLiq0_1wN1lOI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="昇腾任务约束建模&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(Minimize Weighted Load)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="230" x="755" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-18" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-12" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="h_B8XDcVLiq0_1wN1lOI-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="执行 Z3 求解&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(Execute Z3 Solver)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="230" x="755" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-20" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-17" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="h_B8XDcVLiq0_1wN1lOI-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-21" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="求解成功&lt;br&gt;(sat)?" vertex="1">
+          <mxGeometry height="80" width="100" x="1070" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-22" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#6c8ebf;strokeWidth=2;exitX=1;exitY=0.5;" target="h_B8XDcVLiq0_1wN1lOI-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="490" />
+              <mxPoint x="1040" y="490" />
+            </Array>
+            <mxPoint x="1040" y="490" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-23" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-19" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;strokeWidth=2;strokeColor=#6c8ebf;" target="h_B8XDcVLiq0_1wN1lOI-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="选择最佳昇腾设备&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(Select Best Ascend Device)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="1210" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-25" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-21" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;entryX=0;entryY=0.5;strokeColor=#82b366;strokeWidth=2;fontColor=#000000;" target="h_B8XDcVLiq0_1wN1lOI-24" value="是">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" value="选择默认设备&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(Select Default Device)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="1210" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" value="返回默认设备&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(Return Default Device)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="1210" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-28" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-21" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;entryX=0;entryY=0.5;strokeColor=#d79b00;strokeWidth=2;fontColor=#000000;" target="h_B8XDcVLiq0_1wN1lOI-26" value="否">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-29" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-26" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#d79b00;strokeWidth=2;" target="h_B8XDcVLiq0_1wN1lOI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" value="&lt;b&gt;返回昇腾目标设备&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(Return Ascend Target Device)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="1300" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-32" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-24" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;strokeColor=#82b366;strokeWidth=2;" target="h_B8XDcVLiq0_1wN1lOI-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-33" edge="1" parent="1" source="h_B8XDcVLiq0_1wN1lOI-27" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=1;strokeColor=#d79b00;strokeWidth=2;" target="h_B8XDcVLiq0_1wN1lOI-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_B8XDcVLiq0_1wN1lOI-34" parent="1" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#000000;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;" value="" vertex="1">
+          <mxGeometry height="30" width="32.4" x="1260" y="475" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
