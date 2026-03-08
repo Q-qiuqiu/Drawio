@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1">
   <diagram name="Ascend_Z3_Scheduler" id="uuCOxpwbRQDP2r8auEWy">
-    <mxGraphModel dx="742" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="631" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2159,7 +2159,7 @@
             <mxPoint x="165.23999999999998" y="103.62" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="53vQ0laMUc2TjQljCuOC-556" parent="53vQ0laMUc2TjQljCuOC-447" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="LLM Agent" vertex="1">
+        <mxCell id="53vQ0laMUc2TjQljCuOC-556" parent="53vQ0laMUc2TjQljCuOC-447" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;LLM&amp;nbsp;&lt;/div&gt;&lt;div&gt;Agent&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="134.85000000000002" y="127.61999999999989" as="geometry" />
         </mxCell>
         <mxCell id="53vQ0laMUc2TjQljCuOC-523" connectable="0" parent="53vQ0laMUc2TjQljCuOC-447" style="group" value="" vertex="1">
