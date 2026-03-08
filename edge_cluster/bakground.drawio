@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1">
   <diagram name="Ascend_Z3_Scheduler" id="uuCOxpwbRQDP2r8auEWy">
-    <mxGraphModel dx="631" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="526" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2328,6 +2328,12 @@
         </mxCell>
         <mxCell id="53vQ0laMUc2TjQljCuOC-736" parent="53vQ0laMUc2TjQljCuOC-447" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" value="" vertex="1">
           <mxGeometry height="97.73" width="10.06" x="342.84" y="65.9" as="geometry" />
+        </mxCell>
+        <mxCell id="53vQ0laMUc2TjQljCuOC-738" parent="53vQ0laMUc2TjQljCuOC-447" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="Reasoning" vertex="1">
+          <mxGeometry height="15.54" width="60" x="183" y="106.99" as="geometry" />
+        </mxCell>
+        <mxCell id="53vQ0laMUc2TjQljCuOC-853" parent="53vQ0laMUc2TjQljCuOC-447" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;" value="Plan" vertex="1">
+          <mxGeometry height="15.54" width="32" x="110" y="108.54" as="geometry" />
         </mxCell>
         <mxCell id="53vQ0laMUc2TjQljCuOC-599" edge="1" parent="1" source="53vQ0laMUc2TjQljCuOC-482" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;shape=flexArrow;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=none;fillStyle=dots;" value="">
           <mxGeometry relative="1" width="80" as="geometry">
